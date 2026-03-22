@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "download_url": "https://github.com/TWOJ_USERNAME/PaintingHeresy/releases/download/v1.0.0/PaintArmoury.exe",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-03-22",
+      "changes": [
+        "Initial release of Painting Heresy",
+        "Full Citadel paint collection management",
+        "PDF library with built-in viewer",
+        "Warhammer Community news ticker",
+        "Animated Chaos Eye logo",
+        "New Citadel paints detection"
+      ]
+    }
+  ]
+}
