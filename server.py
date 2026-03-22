@@ -1,26 +1,23 @@
-from flask import Flask, jsonify
-import json
-import os
-
-app = Flask(__name__)
-
-VERSION_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'version.json')
-
-def load_version():
-    with open(VERSION_FILE, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-@app.route('/')
-def index():
-    return jsonify({"status": "Painting Heresy Update Server", "ok": True})
-
-@app.route('/version')
-def version():
-    try:
-        return jsonify(load_version())
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8000))
-    app.run(host='0.0.0.0', port=port)
+{
+  "version": "1.1.0",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.1.0/PaintingHeresy.exe",
+  "changelog": [
+    {
+      "version": "1.1.0",
+      "date": "2026-03-22",
+      "changes": [
+        "Test aktualizacji — sprawdzenie czy system działa",
+        "Animowany splash screen z Okiem Chaosu",
+        "Pasek newsów Warhammer Community",
+        "System wykrywania nowych farb Citadel"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-03-22",
+      "changes": [
+        "Initial release of Painting Heresy"
+      ]
+    }
+  ]
+}
