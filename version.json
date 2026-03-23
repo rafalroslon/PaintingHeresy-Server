@@ -1,7 +1,20 @@
 {
-  "version": "1.3.3",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.3.3/PaintingHeresy.exe",
+  "version": "1.4.0",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.4.0/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.4.0",
+      "date": "2026-03-23",
+      "changes": [
+        "Kill Team Data Cards - browse all factions, kill teams and operatives - This feature is heavily WiP",
+        "3D Dice Roller with physics simulation",
+        "Inch to centimetre converter",
+        "Tools section with accessory panel"
+        "Partially offline mode - APP now saves some data into DBs in case API wont respond"
+        "Improved icons"
+        "A lot of minor changes and fixes"
+      ]
+    },
     {
       "version": "1.3.3",
       "date": "2026-03-23",
@@ -11,27 +24,20 @@
       ]
     },
     {
-      "version": "1.3.2",
-      "date": "2026-03-23",
-      "changes": [
-        "Added What's New button with full changelog history",
-        "Added version number display in bottom left corner"
-      ]
-    },
-    {
-      "version": "1.3.1",
-      "date": "2026-03-23",
-      "changes": [
-        "Fixed update dialog blocking the installation process",
-        "Improved app shutdown during update"
-      ]
-    },
-    {
       "version": "1.3.0",
       "date": "2026-03-23",
       "changes": [
         "System tray - app minimizes to tray instead of closing",
         "Light mode - theme toggle button in bottom right corner"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-03-22",
+      "changes": [
+        "Automatic update system with progress bar",
+        "Animated Chaos Eye splash screen",
+        "Warhammer Community news ticker"
       ]
     }
   ]
