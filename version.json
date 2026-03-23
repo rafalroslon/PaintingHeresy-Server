@@ -1,15 +1,15 @@
 {
-  "version": "1.1.0",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.1.0/PaintingHeresy.exe",
+  "version": "1.2.0",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.2.0/PaintingHeresy.exe",
   "changelog": [
     {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "date": "2026-03-22",
       "changes": [
-        "Animowany splash screen z Okiem Chaosu",
-        "Pasek newsow Warhammer Community",
-        "System wykrywania nowych farb Citadel",
-        "System automatycznych aktualizacji"
+        "Added Light Mode and Dark Mode",
+        "Fix for WarNews bar",
+        "Added update system for available paints",
+        "Removed Launcher"
       ]
     },
     {
