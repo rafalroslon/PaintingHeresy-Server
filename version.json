@@ -1,7 +1,18 @@
 {
-  "version": "1.4.0",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.4.0/PaintingHeresy.exe",
+  "version": "1.4.1",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.4.1/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.4.1",
+      "date": "2026-03-23",
+      "changes": [
+        "Fixed app stuck on initialising screen",
+        "Added Lore button on Kill Team cards",
+        "Fixed Kill Team breadcrumb showing operative name",
+        "Added favicon - Chaos Eye icon",
+        "Various bug fixes"
+      ]
+    },
     {
       "version": "1.4.0",
       "date": "2026-03-23",
@@ -10,9 +21,8 @@
         "3D Dice Roller with physics simulation",
         "Inch to centimetre converter",
         "Tools section with accessory panel",
-        "Partially offline mode - app now saves data locally in case API does not respond",
-        "Improved icons",
-        "A lot of minor changes and fixes"
+        "Partially offline mode - app saves data locally",
+        "Improved icons"
       ]
     },
     {
@@ -29,15 +39,6 @@
       "changes": [
         "System tray - app minimizes to tray instead of closing",
         "Light mode - theme toggle button in bottom right corner"
-      ]
-    },
-    {
-      "version": "1.2.0",
-      "date": "2026-03-22",
-      "changes": [
-        "Automatic update system with progress bar",
-        "Animated Chaos Eye splash screen",
-        "Warhammer Community news ticker"
       ]
     }
   ]
