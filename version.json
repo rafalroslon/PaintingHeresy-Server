@@ -1,7 +1,15 @@
 {
-  "version": "1.3.1",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.3.1/PaintingHeresy.exe",
+  "version": "1.3.2",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.3.2/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.3.2",
+      "date": "2026-03-23",
+      "changes": [
+        "Added What's New button with full changelog history",
+        "Added version number display in bottom left corner"
+      ]
+    },
     {
       "version": "1.3.1",
       "date": "2026-03-23",
@@ -25,16 +33,6 @@
         "Automatic update system with progress bar",
         "Animated Chaos Eye splash screen",
         "Warhammer Community news ticker"
-      ]
-    },
-    {
-      "version": "1.0.0",
-      "date": "2026-03-22",
-      "changes": [
-        "Initial release of Painting Heresy",
-        "Full Citadel paint collection manager",
-        "PDF library with built-in viewer",
-        "New Citadel paints detection"
       ]
     }
   ]
