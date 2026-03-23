@@ -6,12 +6,12 @@
       "version": "1.4.0",
       "date": "2026-03-23",
       "changes": [
-        "Kill Team Data Cards - browse all factions, kill teams and operatives - This feature is heavily WiP",
+        "Kill Team Data Cards - browse all factions, kill teams and operatives (WiP)",
         "3D Dice Roller with physics simulation",
         "Inch to centimetre converter",
-        "Tools section with accessory panel"
-        "Partially offline mode - APP now saves some data into DBs in case API wont respond"
-        "Improved icons"
+        "Tools section with accessory panel",
+        "Partially offline mode - app now saves data locally in case API does not respond",
+        "Improved icons",
         "A lot of minor changes and fixes"
       ]
     },
