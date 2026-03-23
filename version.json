@@ -1,7 +1,15 @@
 {
-  "version": "1.3.2",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.3.2/PaintingHeresy.exe",
+  "version": "1.3.3",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.3.3/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.3.3",
+      "date": "2026-03-23",
+      "changes": [
+        "Fixed app not restarting automatically after update",
+        "Improved update installation process"
+      ]
+    },
     {
       "version": "1.3.2",
       "date": "2026-03-23",
@@ -24,15 +32,6 @@
       "changes": [
         "System tray - app minimizes to tray instead of closing",
         "Light mode - theme toggle button in bottom right corner"
-      ]
-    },
-    {
-      "version": "1.2.0",
-      "date": "2026-03-22",
-      "changes": [
-        "Automatic update system with progress bar",
-        "Animated Chaos Eye splash screen",
-        "Warhammer Community news ticker"
       ]
     }
   ]
