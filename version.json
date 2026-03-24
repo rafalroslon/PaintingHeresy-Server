@@ -1,20 +1,30 @@
 {
-  "version": "1.5.0",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.5.0/PaintingHeresy.exe",
+  "version": "1.6.0",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.6.0/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.6.0",
+      "date": "2026-03-24",
+      "changes": [
+        "Shopping List — browse paints you want to buy",
+        "QR Code — generate a mobile checklist for the store",
+        "Auto-sync — bought paints move to Collection automatically",
+        "Search bar works in both Collection and Shopping List",
+        "How Does It Work guide for the shopping flow",
+        "Fixed theme toggle (light/dark mode)",
+        "Fixed What's New button",
+        "Various bug fixes and UI improvements"
+      ]
+    },
     {
       "version": "1.5.0",
       "date": "2026-03-24",
       "changes": [
         "Custom window controls - removed system titlebar",
-        "Minimize and close buttons in topbar",
-        "Space Marine Fortress theme - dark and light mode redesign",
-        "Add PDF button in Library sidebar",
-        "Kill Team: Back button and larger breadcrumbs",
-        "Kill Team: LORE button on kill team cards",
-        "Collection Empty state with cabinet icon",
-        "Inch Converter layout improvements",
-        "Datacard image support for future scraped cards"
+        "Space Marine Fortress theme redesign",
+        "Add PDF button in Library",
+        "Kill Team: Back button, breadcrumbs, LORE button",
+        "Datacard image support"
       ]
     },
     {
@@ -23,27 +33,17 @@
       "changes": [
         "Fixed app stuck on initialising screen",
         "Added Lore button on Kill Team cards",
-        "Fixed Kill Team breadcrumb operative name",
-        "Added favicon - Chaos Eye icon"
+        "Added favicon"
       ]
     },
     {
       "version": "1.4.0",
       "date": "2026-03-23",
       "changes": [
-        "Kill Team Data Cards - browse all factions, kill teams and operatives",
-        "3D Dice Roller with physics simulation",
-        "Inch to centimetre converter",
-        "Tools section with accessory panel",
-        "Partially offline mode - app saves data locally"
-      ]
-    },
-    {
-      "version": "1.3.3",
-      "date": "2026-03-23",
-      "changes": [
-        "Fixed app not restarting automatically after update",
-        "Improved update installation process"
+        "Kill Team Data Cards",
+        "3D Dice Roller",
+        "Inch Converter",
+        "Partially offline mode"
       ]
     }
   ]
