@@ -1,12 +1,20 @@
 {
-  "version": "1.6.1",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.6.1/PaintingHeresy.exe",
+  "version": "1.6.2",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.6.2/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.6.2",
+      "date": "2026-03-24",
+      "changes": [
+        "Fixed UI cache — app now always loads the latest version after update",
+        "Theme preference (light/dark) now saved to disk instead of browser cache"
+      ]
+    },
     {
       "version": "1.6.1",
       "date": "2026-03-24",
       "changes": [
-        "Fixed UI not updating after app update (cache issue)"
+        "Fixed UI not updating after app update"
       ]
     },
     {
