@@ -1,18 +1,21 @@
 {
-  "version": "1.6.0",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.6.0/PaintingHeresy.exe",
+  "version": "1.6.1",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.6.1/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.6.1",
+      "date": "2026-03-24",
+      "changes": [
+        "Fixed UI not updating after app update (cache issue)"
+      ]
+    },
     {
       "version": "1.6.0",
       "date": "2026-03-24",
       "changes": [
-        "Shopping List — browse paints you want to buy",
-        "QR Code — generate a mobile checklist for the store",
-        "Auto-sync — bought paints move to Collection automatically",
-        "Search bar works in both Collection and Shopping List",
-        "How Does It Work guide for the shopping flow",
-        "Fixed theme toggle (light/dark mode)",
-        "Fixed What's New button",
+        "Shopping List with QR code and auto-sync",
+        "Search works in both Collection and Shopping List",
+        "Fixed theme toggle and What's New button",
         "Various bug fixes and UI improvements"
       ]
     },
@@ -20,30 +23,9 @@
       "version": "1.5.0",
       "date": "2026-03-24",
       "changes": [
-        "Custom window controls - removed system titlebar",
+        "Custom window controls",
         "Space Marine Fortress theme redesign",
-        "Add PDF button in Library",
-        "Kill Team: Back button, breadcrumbs, LORE button",
-        "Datacard image support"
-      ]
-    },
-    {
-      "version": "1.4.1",
-      "date": "2026-03-23",
-      "changes": [
-        "Fixed app stuck on initialising screen",
-        "Added Lore button on Kill Team cards",
-        "Added favicon"
-      ]
-    },
-    {
-      "version": "1.4.0",
-      "date": "2026-03-23",
-      "changes": [
-        "Kill Team Data Cards",
-        "3D Dice Roller",
-        "Inch Converter",
-        "Partially offline mode"
+        "Kill Team improvements"
       ]
     }
   ]
