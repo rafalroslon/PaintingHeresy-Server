@@ -1,7 +1,20 @@
 {
-  "version": "1.6.2",
-  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.6.2/PaintingHeresy.exe",
+  "version": "1.8.0",
+  "download_url": "https://github.com/rafalroslon/PaintingHeresy/releases/download/v1.8.0/PaintingHeresy.exe",
   "changelog": [
+    {
+      "version": "1.8.0",
+      "date": "2026-03-25",
+      "changes": [
+        "Huge Refactor of the App",
+        "Added War News button opening News/Reddit how topics",
+        "Fixed /api/stats 404 error - statistics now load correctly",
+        "Fixed PDF upload - PDFs now appear in library immediately",
+        "News and Reddit now preload at startup - instant display when opening panels",
+        "Optimized image loading with base64 conversion and smart caching",
+        "Single .exe deployment - all databases embedded, auto-setup on first run"
+      ]
+    },
     {
       "version": "1.6.2",
       "date": "2026-03-24",
